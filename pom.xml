@@ -9,6 +9,25 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
-        <exec.mainClass>com.mycompany.swingfrontend.SwingFrontend</exec.mainClass>
+        <exec.mainClass>com.mycompany.swingfrontend.MainUI</exec.mainClass>
     </properties>
+    <dependencies>
+	<dependency>
+	<groupId>org.apache.httpcomponents</groupId>
+	<artifactId>httpclient</artifactId>
+	<version>4.5.13</version>
+	  <type>jar</type>
+	</dependency>
+	<dependency>
+		<groupId>org.apache.httpcomponents</groupId>
+		<artifactId>httpcore</artifactId>
+		<version>4.4.13</version>
+		<type>jar</type>
+	</dependency>
+	<dependency>  
+		<groupId>org.json</groupId>  
+		<artifactId>json</artifactId>  
+		<version>20160810</version>  
+	</dependency>  
+</dependencies>
 </project>
